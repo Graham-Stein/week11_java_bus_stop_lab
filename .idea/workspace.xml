@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c6a6c5-a9d2-4e28-a8c5-0ca781e9fc8f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BusTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BusTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BusTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="281">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#108#109#0" expanded="true" />
@@ -41,20 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Bus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="313">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
               <folding>
                 <element signature="e#54#55#0" expanded="true" />
                 <element signature="e#80#81#0" expanded="true" />
@@ -62,8 +54,6 @@
                 <element signature="e#470#471#0" expanded="true" />
                 <element signature="e#523#524#0" expanded="true" />
                 <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -386,9 +376,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Bus.java" />
-        <option value="$PROJECT_DIR$/src/test/java/BusTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/BusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Bus.java" />
       </list>
     </option>
   </component>
@@ -438,7 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusTest.hasSomePassengers">
+  <component name="RunManager" selected="JUnit.BusTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -459,13 +449,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BusTest.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusTest.canRemoveOnePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusStopLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="METHOD_NAME" value="canRemoveOnePerson" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -476,13 +466,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BusTest.hasNoPassengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BusTest.cannotAddMoreThanCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusStopLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BusTest" />
-      <option name="METHOD_NAME" value="hasNoPassengers" />
+      <option name="METHOD_NAME" value="cannotAddMoreThanCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BusTest.cannotRemovePeopleFromEmptyBus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusStopLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusTest" />
+      <option name="METHOD_NAME" value="cannotRemovePeopleFromEmptyBus" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -550,16 +557,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BusTest" />
-      <item itemvalue="JUnit.BusTest.hasCapacity" />
-      <item itemvalue="JUnit.BusTest.hasNoPassengers" />
       <item itemvalue="JUnit.BusTest.hasSomePassengers" />
+      <item itemvalue="JUnit.BusTest.cannotAddMoreThanCapacity" />
+      <item itemvalue="JUnit.BusTest.canRemoveOnePerson" />
+      <item itemvalue="JUnit.BusTest.cannotRemovePeopleFromEmptyBus" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BusTest.hasSomePassengers" />
         <item itemvalue="JUnit.BusTest" />
-        <item itemvalue="JUnit.BusTest.hasNoPassengers" />
-        <item itemvalue="JUnit.BusTest.hasCapacity" />
+        <item itemvalue="JUnit.BusTest.canRemoveOnePerson" />
+        <item itemvalue="JUnit.BusTest.cannotRemovePeopleFromEmptyBus" />
+        <item itemvalue="JUnit.BusTest.cannotAddMoreThanCapacity" />
+        <item itemvalue="JUnit.BusTest.hasSomePassengers" />
       </list>
     </recent_temporary>
   </component>
@@ -577,21 +586,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusTest_hasCapacity - 2018.11.20 at 15h 30m 05s.xml">
-      <configuration name="BusTest.hasCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusTest_hasCapacity - 2018.11.20 at 15h 30m 12s.xml">
-      <configuration name="BusTest.hasCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusTest_hasNoPassengers - 2018.11.20 at 15h 33m 20s.xml">
-      <configuration name="BusTest.hasNoPassengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusTest_hasNoPassengers - 2018.11.20 at 15h 33m 28s.xml">
-      <configuration name="BusTest.hasNoPassengers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusTest_hasNoPassengers - 2018.11.20 at 15h 34m 06s.xml">
-      <configuration name="BusTest.hasNoPassengers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BusTest_hasNoPassengers - 2018.11.20 at 15h 37m 19s.xml">
       <configuration name="BusTest.hasNoPassengers" configurationId="JUnit" />
     </history-entry>
@@ -607,6 +601,21 @@
     <history-entry file="BusTest_hasSomePassengers - 2018.11.20 at 15h 42m 39s.xml">
       <configuration name="BusTest.hasSomePassengers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BusTest_hasSomePassengers - 2018.11.20 at 15h 48m 57s.xml">
+      <configuration name="BusTest.hasSomePassengers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest_cannotAddMoreThanCapacity - 2018.11.20 at 15h 49m 36s.xml">
+      <configuration name="BusTest.cannotAddMoreThanCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest_cannotAddMoreThanCapacity - 2018.11.20 at 15h 51m 25s.xml">
+      <configuration name="BusTest.cannotAddMoreThanCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest - 2018.11.20 at 15h 51m 30s.xml">
+      <configuration name="BusTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BusTest_cannotAddMoreThanCapacity - 2018.11.20 at 15h 52m 26s.xml">
+      <configuration name="BusTest.cannotAddMoreThanCapacity" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="0" />
@@ -620,12 +629,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32973805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32973805" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32973805" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -645,6 +654,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Person.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -653,10 +667,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="313">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
           <folding>
             <element signature="e#54#55#0" expanded="true" />
             <element signature="e#80#81#0" expanded="true" />
@@ -664,16 +685,14 @@
             <element signature="e#470#471#0" expanded="true" />
             <element signature="e#523#524#0" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="281">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#108#109#0" expanded="true" />
@@ -685,13 +704,6 @@
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
         </state>
       </provider>
     </entry>
